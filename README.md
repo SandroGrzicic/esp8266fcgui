@@ -20,10 +20,10 @@ KISS and BetaFlight GUI on ESP8266
 ### Requirements
 - ESP8266 module with at least 4MB flash. [This module](https://www.wemos.cc/product/d1-mini-pro.html) weights 2.5g and is ready to go
 - Recent version of [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-- Latest [Arduino ESP8266 filesystem uploader](https://github.com/esp8266/arduino-esp8266fs-plugin) plugin installed
-- Git version of [ESP8266 Arduino](https://github.com/esp8266/Arduino#using-git-version)
-- Git version of [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
-- Git version of [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+- Latest [Arduino ESP8266 filesystem uploader](https://github.com/esp8266/arduino-esp8266fs-plugin) plugin installed - put inside `Documents/Arduino/tools`
+- Git version of [ESP8266 Arduino](https://github.com/esp8266/Arduino#using-git-version) - put inside `<Arduino installation directory>`, as per the instructions
+- Git version of [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP) - put inside `<Arduino installation directory>/hardware/esp8266com/esp8266/libraries`
+- Git version of [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer) - put inside the same root directory as above
 
 ### Compiling and upload
 - Fullfill all requirements above
