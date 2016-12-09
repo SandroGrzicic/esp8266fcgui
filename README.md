@@ -27,7 +27,7 @@ KISS and BetaFlight GUI on ESP8266
 
 ### Compiling and upload
 - Fullfill all requirements above
-- If on Windows, reset permissions for the directory `<Arduino installation directory>\hardware\esp8266com\esp8266\tools\esptool` since they will be corrupt and the file not able to be opened (Properties, Security, Edit, say Yes to reordering, give your user at least read access)
+- If on Windows, if you get any errors during the below operations, ensure there is no permissions issue by resetting permissions for the directory and all subdirectories in `<Arduino installation directory>\hardware\esp8266com` since they might be corrupt and the files not able to be opened (Properties, Security, Edit, say Yes to reordering, give your user at least read access)
 - Clone or download this repository to your computer
 - Sketch ino and folder name MUST match
 - Open the ino sketch with Arduino IDE
